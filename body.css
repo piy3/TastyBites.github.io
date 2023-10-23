@@ -1,0 +1,134 @@
+.cont1 {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.items{
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.food{
+    height: 210px;
+    width: 200px;
+    /* border: 1px solid green;   */
+}
+.box{
+    height: fit-content;
+    width: 100%;
+}
+
+#items1 .photo{
+    height: 172px; 
+    /* border: solid green; */
+    background-image: url("https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#items2 .photo{
+    height: 172px; 
+    /* border: solid green; */
+    background-image: url("https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#items3 .photo{
+    height: 172px; 
+    /* border: solid green; */
+    background-image: url("https://b.zmtcdn.com/data/dish_images/d5ab931c8c239271de45e1c159af94311634805744.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#items4 .photo{
+    height: 172px; 
+    /* border: solid green; */
+    background-image: url("https://b.zmtcdn.com/data/dish_images/e44c42ff4b60b025225c8691ef9735b11635781903.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#items5 .photo{
+    height: 172px; 
+    /* border: solid green; */
+    background-image: url("https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.food .text{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.food .text a{
+    text-decoration: none;
+}
+.food .text a:hover{
+    color: red;
+}
+.photo:hover{
+    transform: scale(1.04);
+    transition: 0.4s;
+}
+
+/* for top brands */
+.cont2 p{
+    font-size: 28px;
+    padding-left: 5px;
+}
+.box2{
+    height: fit-content;
+    width: 100%;
+}
+.items2{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 30px; */
+    flex-wrap: wrap;
+}
+#items_a .photo{
+    height: 172px; 
+    /* border: solid green; */
+    background-image: url("https://b.zmtcdn.com/data/brand_creatives/logos/466f8fc74274145f3b21795c3d21816d_1589432182.png?output-format=webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#items_b .photo{
+    height: 172px; 
+    /* border: solid green; */
+    background-image: url("https://b.zmtcdn.com/data/brand_creatives/logos/9742d760cf95e9dbf9b869ca9c753f8f_1613131731.png?output-format=webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#items_c .photo{
+    height: 172px; 
+    /* border: solid green; */
+    background-image: url("https://b.zmtcdn.com/data/brand_creatives/logos/790ca481c905428c897c98fe972f20a6_1643610125.png?output-format=webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#items_d .photo{
+    height: 172px; 
+    /* border: solid green; */
+    background-image: url("https://b.zmtcdn.com/data/brand_creatives/logos/0619ae0b489d44dd3562538f7768e48a_1658818804.png?output-format=webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#items_e .photo{
+    height: 172px; 
+    /* border: solid green; */
+    background-image: url("https://b.zmtcdn.com/data/brand_creatives/logos/4a69996607a354a03aa907ba999515fd_1606889846.png?output-format=webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
